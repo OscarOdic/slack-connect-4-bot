@@ -12,7 +12,7 @@ Inspired by [@CharlieHess/slack-poker-bot](https://github.com/CharlieHess/slack-
 ## Getting started
 1. Create a new [bot integration here](https://my.slack.com/services/new/bot)
 2. Run the bot locally or have it running on a heroku server
-3. Start a game using: `@<bot-name>: start`
+3. Start a game using: `@<bot-name>: connect4`
 4. Follow the instructions the bot gives you in Slack
 5. Type `quit` to abandon a game
 
@@ -47,4 +47,4 @@ Tests can be run using `npm test`.
 
 ## Festivities
 
-Start a game using: `@<bot-name>: start boo`, `@<bot-name>: start xmas` or `@<bot-name>: start moon` to play Connect 4 with a festive spin.
+Start a game using: `@<bot-name>: connect4 boo`, `@<bot-name>: connect4 xmas` or `@<bot-name>: connect4 moon` to play Connect 4 with a festive spin.
