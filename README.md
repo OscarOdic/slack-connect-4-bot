@@ -47,4 +47,4 @@ Tests can be run using `npm test`.
 
 ## Festivities
 
-Start a game using: `@<bot-name>: start boo` or `@<bot-name>: start xmas` to play Connect 4 with a festive spin.
+Start a game using: `@<bot-name>: start boo`, `@<bot-name>: start xmas` or `@<bot-name>: start moon` to play Connect 4 with a festive spin.

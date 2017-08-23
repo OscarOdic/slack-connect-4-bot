@@ -46,5 +46,17 @@ module.exports = {
         face: {
             neutral: ':snowman:'
         }
+    },
+    moon: {
+        circle: {
+            red: ':full_moon_with_face:',
+            blue: ':new_moon_with_face:',
+            white: ':white_circle:'
+        },
+        celebrate: ':tada:',
+        fire: ':fire:',
+        face: {
+            neutral: ':neutral:'
+        }
     }
 };
