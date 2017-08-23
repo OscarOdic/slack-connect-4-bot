@@ -28,7 +28,7 @@ class Bot {
 
         let startMessages = messages
             .where(e =>
-                MsgHelper.containsUserMention(e.text, this.slack.self.id) &&
+                (MsgHelper.containsUserMention(e.text, this.slack.self.id) || MsgHelper.containsWord(e.text, this.slack.self.name)) &&
                 MsgHelper.containsWord(e.text, 'connect4'))
             .map(e => {
                 if (MsgHelper.containsWord(e.text, 'boo')) {
